@@ -10,6 +10,9 @@
     var_dump($_GET);
     $email = $_GET["email"];
     echo "Welkom! " . $email;
+    
+    
     ?>
 </body>
 </html>
+

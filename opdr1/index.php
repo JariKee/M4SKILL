@@ -12,5 +12,11 @@
         </div>
             <button type="submit">Verzenden</button>
         </form>
+        <?php
+          $associatieve_array = array(  'first' => 'een', 'second' => 'twee');
+          
+          echo $associatieve_array['first'];
+          
+          ?>
 </body>
 </html>
