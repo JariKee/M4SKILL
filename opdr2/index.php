@@ -6,11 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="afhandeling.php" method="post">
+    <form action="afhandeling.php" method="get">
         <div>
             <input type="email" name="email"/>
         </div>
             <button type="submit">Verzenden</button>
         </form>
+
 </body>
 </html>

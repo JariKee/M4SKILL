@@ -7,7 +7,8 @@
 </head>
 <body>
     <?php
-    $email = $_POST["email"];
+var_dump($_GET);
+    $email = $_GET["email"];
     echo "Welkom! " . $email;
     
     
